@@ -25,7 +25,7 @@
 }
 
 .header-container-rigth text{
-    font-size: 18px;
+    font-size: 14px;
     color: #2D2E33;
     cursor: pointer;
     margin-right: 45px;
@@ -70,6 +70,7 @@
     display: flex;
     justify-content: center;
     padding-top: 15px;
+    z-index: 999;
 }
 
 .container-link-responsive{
@@ -79,7 +80,7 @@
 }
 
 .container-link-responsive text{
-    font-size: 18px;
+    font-size: 14px;
     color: #2D2E33;
     cursor: pointer;
     width: 100%;

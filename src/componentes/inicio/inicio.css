@@ -1,0 +1,70 @@
+.body-inicio{
+    display: block;
+    padding: 0px 30px;
+}
+
+.container-inicio-1{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://unionadtech.com/wp-content/themes/yootheme/cache/08/header-home-082664d9.jpeg");
+}
+
+.container-inicio-1-container{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 90%;
+    background-color: #1E3684;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 3%;
+    color: #FFF;
+}
+
+.container-inicio-1-container-text{
+    width: 450px;
+}
+
+.container-inicio-1-container-text h1{
+    font-size: 36px;
+}
+
+.container-inicio-1-container-text h3{
+    font-size: 18px;
+}
+
+.container-inicio-1-container-text div{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.container-inicio-1-container-text text{
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: "Gill Sans", sans-serif;
+    opacity: 0.8;
+    line-height: 2em;
+    color: #FFFFFF;
+}
+
+.container-inicio-1-container-text button{
+    height: 40px;
+    width: 162px;
+    font-size: 14px;
+    background-color: #B7A088;
+    color: #FFF;
+    padding: 0px 25px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.container-inicio-1-container-text button:hover{
+    background-color:#FFF ;
+    color: #B7A088;
+}
+
