@@ -1,0 +1,132 @@
+.body-header{
+    width: 100%;
+    height: 100px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+}
+
+.header-container-left{
+    width: 41%;
+    display: flex;
+    align-items: center;
+    left: 0px;
+}
+
+.header-container-left img{
+    margin-left: 52px;
+}
+
+.header-container-rigth{
+    width: 59%;
+    display: flex;
+    align-items: center;
+    right: 0px;
+}
+
+.header-container-rigth text{
+    font-size: 18px;
+    color: #2D2E33;
+    cursor: pointer;
+    margin-right: 45px;
+}
+
+.header-container-rigth text:hover{
+    color: #B7A088;
+}
+
+.header-container-rigth button{
+    height: 40px;
+    width: 117px;
+    color: #FFFFFF;
+    background-color: #1E3684;
+    border-radius: 100px;
+    padding: 0px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid #1E3684;
+    margin-right: 45px;
+}
+
+.header-container-rigth button:hover{
+    color: #2D2E33;
+    background-color: #FFFFFF;
+}
+
+.svg-container{
+    display: none;
+}
+
+.svg-container svg:hover{
+    fill: #B7A088;
+}
+
+.header-container-responsive{
+    position: absolute;
+    width: 100%;
+    background-color: #FFF;
+    height: 81vh;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.container-link-responsive{
+    display: grid;
+    height: 60%;
+    width: 95%;
+}
+
+.container-link-responsive text{
+    font-size: 18px;
+    color: #2D2E33;
+    cursor: pointer;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    height: 40px;
+}
+
+.container-link-responsive text:hover{
+    color: #B7A088;
+}
+
+.container-link-responsive button{
+    height: 40px;
+    width: 117px;
+    color: #FFFFFF;
+    background-color: #1E3684;
+    border-radius: 100px;
+    padding: 0px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid #1E3684;
+}
+
+.container-link-responsive button:hover{
+    color: #2D2E33;
+    background-color: #FFFFFF;
+}
+
+
+@media (max-width: 950px) {
+
+    .header-container-left img{
+        margin-left: 20px;
+        width: 150px;
+        height: 50px;
+    }
+    
+
+    .header-container-rigth{
+        display: none;
+    }
+
+    .svg-container{
+        display: flex;
+        position: absolute;
+        right: 30px;
+        cursor: pointer;
+    }
+
+}
