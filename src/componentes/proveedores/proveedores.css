@@ -1,0 +1,143 @@
+.body-proveedores{
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.imgBackground-proveedores{
+    background-image: url("https://unionadtech.com/wp-content/themes/yootheme/cache/8d/header-proveedores-8d4a3347.jpeg");
+    background-size: cover;
+}
+
+.body-proveedores-2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-proveedores-1{
+    display: block;
+    width: 85%;
+}
+
+.container-proveedores-1 h1{
+    font-size: 24px;
+    color: #2D2E33;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.container-arrow-text-proveedores{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+.container-arrow-text-proveedores svg{
+    min-width: 20px;
+    min-height: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.link-proveedores{
+    text-decoration: none;
+    font-size: 15px;
+    color: #6C6D74;
+    margin-left: 10px;
+    cursor: default;
+}
+
+.container-proveedores-2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.container-proveedores-2-left{
+    display: block;
+    width: 40%;
+}
+
+.container-proveedores-2-left h1{
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #2D2E33;
+}
+
+.container-proveedores-2-left text{
+    font-size: 15px;
+    color: #6C6D74;
+    line-height: 1.8em;
+}
+
+.container-proveedores-2-rigth{
+    display: block;
+    width: 40%;
+}
+
+.container-proveedores-2-rigth h1{
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #2D2E33;
+    margin-left: 40px;
+}
+
+@media (max-width: 950px) {
+    .container-proveedores-1{
+        width: 100%;
+    }
+
+    .container-proveedores-1 h1{
+        margin-left: 20px;
+    }
+    
+    .container-arrow-text-proveedores{
+        margin-left: 20px;
+    }
+
+    .container-proveedores-2{
+        display: block;
+    }
+    
+    .container-proveedores-2-left{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .container-proveedores-2-left h1{
+        margin-left: 20px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+    
+    .container-proveedores-2-left div{
+        margin-left: 20px;
+    }
+
+    .container-proveedores-2-rigth{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .container-proveedores-2-rigth h1{
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 750px) {
+    .container-proveedores-2{
+       display: block;
+    }
+
+    .container-proveedores-2-left{
+        width: 92%;
+    }
+    .container-proveedores-2-rigth{
+        margin-top: 30px;
+    }
+    
+}

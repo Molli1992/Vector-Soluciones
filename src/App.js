@@ -6,26 +6,36 @@ import "@fontsource/montserrat/400.css"; // Specify weight
 import "@fontsource/montserrat/400-italic.css"; // Specify weight and style
 import Header from "./componentes/header/header";
 import Inicio from "./componentes/inicio/inicio";
-
+import Footer from "./componentes/footer/footer";
+import Nosotros from "./componentes/nosotros/nosotros";
+import Proveedores from "./componentes/proveedores/proveedores";
+import Cobranzas from "./componentes/cobranzas/cobranzas";
 
 function App() {
   return (
 
- <div className="body">
 
-    <BrowserRouter>
 
-    <Header />
+     <BrowserRouter>
 
-      <Routes>
+      <div className="body">
 
-        <Route path="/" element={<Inicio />} />
+       <Header />
 
-      </Routes>
+        <Routes>
 
-    </BrowserRouter>
+          <Route path="/" element={<Inicio />} />
+          <Route path="/quienes-somos" element={<Nosotros />} />
+          <Route path="/pago-proveedores" element={<Proveedores />} />
+          <Route path="/cobranzas-regulares" element={<Cobranzas />} />
 
- </div>
+        </Routes>
+
+        <Footer />
+
+      </div>
+
+     </BrowserRouter>
 
   );
 

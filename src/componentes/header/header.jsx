@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import "./header.css";
 
 function Header() {
   const [state, setState] = useState(false);
+  const navigate = useNavigate();
 
   const onClick = () => {
     if (state === false) {
@@ -12,6 +14,10 @@ function Header() {
     }
   };
 
+  const onClickRoute = () => {
+    setState(false);
+    navigate("/contacto");
+  };
   return (
     <div className="body-header">
       <div className="header-container-left">
@@ -22,11 +28,19 @@ function Header() {
       </div>
 
       <div className="header-container-rigth">
-        <text>Inicio</text>
-        <text>Quienes Somos</text>
-        <text>Pago Proveedores</text>
-        <text>Cobranzas Regulares</text>
-        <button>Contacto</button>
+        <Link to={"/"} className="link-header">
+          Inicio
+        </Link>
+        <Link to={"quienes-somos"} className="link-header">
+          Quienes Somos
+        </Link>
+        <Link to={"pago-proveedores"} className="link-header">
+          Pago Proveedores
+        </Link>
+        <Link to={"cobranzas-regulares"} className="link-header">
+          Cobranzas Regulares
+        </Link>
+        <button onClick={onClickRoute}>Contacto</button>
       </div>
 
       <div className="svg-container" onClick={onClick}>
@@ -61,11 +75,31 @@ function Header() {
       {state === true ? (
         <div className="header-container-responsive">
           <div className="container-link-responsive">
-            <text>Inicio</text>
-            <text>Quienes Somos</text>
-            <text>Pago Proveedores</text>
-            <text>Cobranzas Regulares</text>
-            <button>Contacto</button>
+            <Link to={"/"} className="link-header-responsive" onClick={onClick}>
+              Inicio
+            </Link>
+            <Link
+              to={"quienes-somos"}
+              className="link-header-responsive"
+              onClick={onClick}
+            >
+              Quienes Somos
+            </Link>
+            <Link
+              to={"pago-proveedores"}
+              className="link-header-responsive"
+              onClick={onClick}
+            >
+              Pago Proveedores
+            </Link>
+            <Link
+              to={"cobranzas-regulares"}
+              className="link-header-responsive"
+              onClick={onClick}
+            >
+              Cobranzas Regulares
+            </Link>
+            <button onClick={onClickRoute}>Contacto</button>
           </div>
         </div>
       ) : null}
