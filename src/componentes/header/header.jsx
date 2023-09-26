@@ -1,11 +1,20 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Logo from "../../logo/logo-vector-2-removebg-preview.png";
+import { useLocation } from "react-router-dom";
 import "./header.css";
 
 function Header() {
   const [state, setState] = useState(false);
+  const [inicio, setInicio] = useState(false);
+  const [nosotros, setNostros] = useState(false);
+  const [proveedores, setProveedores] = useState(false);
+  const [cobranzas, setCobranzas] = useState(false);
+  const [loop, setLopp] = useState(false);
   const navigate = useNavigate();
+  const location = useLocation();
+
+  console.log(location.pathname);
 
   const onClick = () => {
     if (state === false) {
@@ -19,6 +28,66 @@ function Header() {
     setState(false);
     navigate("/contacto");
   };
+
+  const onClickStateInicio = () => {
+    if (inicio === false) {
+      setInicio(true);
+      setNostros(false);
+      setProveedores(false);
+      setCobranzas(false);
+    }
+  };
+
+  const onClickStateNostros = () => {
+    if (nosotros === false) {
+      setNostros(true);
+      setInicio(false);
+      setProveedores(false);
+      setCobranzas(false);
+    }
+  };
+
+  const onClickStateProveedores = () => {
+    if (proveedores === false) {
+      setProveedores(true);
+      setNostros(false);
+      setInicio(false);
+      setCobranzas(false);
+    }
+  };
+
+  const onClickStateCobranzas = () => {
+    if (cobranzas === false) {
+      setCobranzas(true);
+      setNostros(false);
+      setInicio(false);
+      setProveedores(false);
+    }
+  };
+
+  if (location.pathname === "/" && loop === false) {
+    console.log("hola");
+    setLopp(true);
+    setInicio(true);
+  }
+
+  if (location.pathname === "/quienes-somos" && loop === false) {
+    console.log("hola");
+    setLopp(true);
+    setNostros(true);
+  }
+
+  if (location.pathname === "/pago-proveedores" && loop === false) {
+    console.log("hola");
+    setLopp(true);
+    setProveedores(true);
+  }
+
+  if (location.pathname === "/cobranzas-regulares" && loop === false) {
+    console.log("hola");
+    setLopp(true);
+    setCobranzas(true);
+  }
   return (
     <div className="body-header">
       <div className="header-container-left">
@@ -26,18 +95,57 @@ function Header() {
       </div>
 
       <div className="header-container-rigth">
-        <Link to={"/"} className="link-header">
-          Inicio
-        </Link>
-        <Link to={"quienes-somos"} className="link-header">
-          Quienes Somos
-        </Link>
-        <Link to={"pago-proveedores"} className="link-header">
-          Pago Proveedores
-        </Link>
-        <Link to={"cobranzas-regulares"} className="link-header">
-          Cobranzas Regulares
-        </Link>
+        {inicio === false ? (
+          <Link to={"/"} className="link-header" onClick={onClickStateInicio}>
+            Inicio
+          </Link>
+        ) : (
+          <Link to={"/"} className="link-header-2">
+            Inicio
+          </Link>
+        )}
+
+        {nosotros === false ? (
+          <Link
+            to={"quienes-somos"}
+            className="link-header"
+            onClick={onClickStateNostros}
+          >
+            Quienes Somos
+          </Link>
+        ) : (
+          <Link to={"quienes-somos"} className="link-header-2">
+            Quienes Somos
+          </Link>
+        )}
+
+        {proveedores === false ? (
+          <Link
+            to={"pago-proveedores"}
+            className="link-header"
+            onClick={onClickStateProveedores}
+          >
+            Pago Proveedores
+          </Link>
+        ) : (
+          <Link to={"pago-proveedores"} className="link-header-2">
+            Pago Proveedores
+          </Link>
+        )}
+
+        {cobranzas === false ? (
+          <Link
+            to={"cobranzas-regulares"}
+            className="link-header"
+            onClick={onClickStateCobranzas}
+          >
+            Cobranzas Regulares
+          </Link>
+        ) : (
+          <Link to={"cobranzas-regulares"} className="link-header-2">
+            Cobranzas Regulares
+          </Link>
+        )}
         <button onClick={onClickRoute}>Contacto</button>
       </div>
 

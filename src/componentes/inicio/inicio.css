@@ -36,7 +36,7 @@
     justify-content: center;
     width: 50%;
     height: 80%;
-    background-color: #1E3684;
+    background-color: #1e5f84;
     top: 50%;
     transform: translateY(-50%);
     left: 3%;
@@ -96,7 +96,7 @@
     height: 100%;
     display: flex;
     position: relative;
-    background-image: linear-gradient(to right bottom, rgba(33, 59, 147, 0.91), rgba(33, 59, 147, 0.91)),
+    background-image: linear-gradient(to right bottom, rgba(30, 95, 132, 0.95), rgba(30, 95, 132, 0.95)),
      url("https://unionadtech.com/wp-admin/admin-ajax.php?action=kernel&p=image&src=file%3Dwp-content%252Fuploads%252F2023%252F03%252Fhome-proveedores.jpg%26thumbnail%3D768%2C768%2C&hash=158219e6");
      background-size: cover;
      background-repeat: no-repeat;
@@ -134,7 +134,7 @@
 }
 
 .nueva-img{
-    background-image: linear-gradient(to right bottom, rgba(33, 59, 147, 0.91), rgba(33, 59, 147, 0.91)),
+    background-image: linear-gradient(to right bottom, rgba(30, 95, 132, 0.95), rgba(30, 95, 132, 0.95)),
      url("https://unionadtech.com/wp-content/themes/yootheme/cache/8b/home-contact-02-8be3e0ad.jpeg");
      background-size: cover;
 }

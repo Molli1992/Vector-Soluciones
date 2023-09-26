@@ -24,7 +24,7 @@
    top: 50%;
    transform: translateY(-50%);
    margin-left: 40px;
-   background-color: #213B90;
+   background-color: #1e5f84;
 }
 
 .container-nosotros-1-header h1{
@@ -47,7 +47,7 @@
 }
 
 .line-nosotros{
-    background-color: #213B90;
+    background-color: #1e5f84;
     height: 30px;
     width: 3px;
     margin-right: 15px;
