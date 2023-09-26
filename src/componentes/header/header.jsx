@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import Logo from "../../logo/logo-vector-2-removebg-preview.png";
+import Logo from "../../logo/logo-vector-3-removebg-preview.png";
 import { useLocation } from "react-router-dom";
 import "./header.css";
 

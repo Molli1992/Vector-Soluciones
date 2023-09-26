@@ -16,7 +16,7 @@
 .header-container-left img{
     margin-left: 35px;
     width: 250px;
-    height: 100%;
+    height: 150px;
 }
 
 .header-container-rigth{
@@ -136,7 +136,7 @@
 @media (max-width: 980px) {
 
     .header-container-left img{
-        margin-left: 20px;
+        margin-left: -30px;
     }
     
 
