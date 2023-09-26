@@ -20,9 +20,7 @@ function Footer() {
         <Link className="link-footer">Cobranzas Regulares</Link>
       </div>
       <div className="container-2-footer">
-        <text>
-          © 2023 Union Ads Technology S.A. Todos los derechos reservados.
-        </text>
+        <text>© 2023 Vector Soluciones Todos los derechos reservados.</text>
       </div>
       <div className="arrow-container-footer" onClick={onClick}>
         <svg
