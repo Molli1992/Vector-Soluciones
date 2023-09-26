@@ -16,9 +16,10 @@
     margin-bottom: 70px;
 }
 
-.container-texts-servicios h3{
-    font-size: 56px;
-    color: #B7A088;
+.container-texts-servicios svg{
+    width: 60px;
+    height: 60px;
+    fill: #B7A088;
     margin-bottom: 15px;
 }
 
