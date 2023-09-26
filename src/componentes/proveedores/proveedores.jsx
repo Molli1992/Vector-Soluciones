@@ -54,7 +54,7 @@ function Proveedores() {
           <div className="container-arrow-text-proveedores">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              fill="green"
+              fill="#ff8000"
               class="bi bi-arrow-right-short"
               viewBox="0 0 16 16"
             >
@@ -69,7 +69,7 @@ function Proveedores() {
           <div className="container-arrow-text-proveedores">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              fill="green"
+              fill="#ff8000"
               class="bi bi-arrow-right-short"
               viewBox="0 0 16 16"
             >
@@ -84,7 +84,7 @@ function Proveedores() {
           <div className="container-arrow-text-proveedores">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              fill="green"
+              fill="#ff8000"
               class="bi bi-arrow-right-short"
               viewBox="0 0 16 16"
             >
@@ -101,7 +101,7 @@ function Proveedores() {
           <div className="container-arrow-text-proveedores">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              fill="green"
+              fill="#ff8000"
               class="bi bi-arrow-right-short"
               viewBox="0 0 16 16"
             >
@@ -118,7 +118,7 @@ function Proveedores() {
           <div className="container-arrow-text-proveedores">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              fill="green"
+              fill="#ff8000"
               class="bi bi-arrow-right-short"
               viewBox="0 0 16 16"
             >
@@ -133,7 +133,7 @@ function Proveedores() {
           <div className="container-arrow-text-proveedores">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              fill="green"
+              fill="#ff8000"
               class="bi bi-arrow-right-short"
               viewBox="0 0 16 16"
             >
@@ -178,84 +178,3 @@ function Proveedores() {
 }
 
 export default Proveedores;
-
-/*
-      <div className="container-proveedores-2">
-        <div className="container-proveedores-2-left">
-          <h1>Nuestras Experiencias</h1>
-
-          <div>
-            <text>
-              Adoptar soluciones personalizadas y eficaces para activar la
-              cobranza, el reclamo y la detección temprana de problemas, han
-              mejorado significativamente los tiempos de cobro.
-            </text>
-          </div>
-
-          <div>
-            <text>
-              Además, ofrecemos un servicio de seguimiento y recuperación de
-              deudas para regularizar las cuentas y simplificar la
-              administración. Nuestros analistas brindan actualizaciones diarias
-              para mantener a nuestros clientes al tanto de los progresos en la
-              gestión de cobranzas.
-            </text>
-          </div>
-        </div>
-
-        <div className="container-proveedores-2-rigth">
-          <h1>Beneficios</h1>
-
-          <div className="container-arrow-text-proveedores">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="green"
-              class="bi bi-arrow-right-short"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-              />
-            </svg>
-            <Link className="link-proveedores">
-              Animacion y gestion de Cobro
-            </Link>
-          </div>
-
-          <div className="container-arrow-text-proveedores">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="green"
-              class="bi bi-arrow-right-short"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-              />
-            </svg>
-            <Link className="link-proveedores">
-              Recaudacion en el lugar de pago
-            </Link>
-          </div>
-
-          <div className="container-arrow-text-proveedores">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="green"
-              class="bi bi-arrow-right-short"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-              />
-            </svg>
-            <Link className="link-proveedores">
-              Registro del recibo y aplicacion del pago en cuenta corriente
-            </Link>
-          </div>
-        </div>
-      </div>
-      */

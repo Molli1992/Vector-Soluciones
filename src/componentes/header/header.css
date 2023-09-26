@@ -35,13 +35,13 @@
 }
 
 .link-header:hover{
-    color: #B7A088;
+    color: #ff8000;
 }
 
 .link-header-2{
     text-decoration: none;
     font-size: 15px;
-    color: #B7A088;
+    color: #ff8000;
     cursor: pointer;
     margin-right: 45px;
     font-weight: bold;
@@ -51,16 +51,16 @@
     height: 40px;
     width: 117px;
     color: #FFFFFF;
-    background-color: #1e5f84;
+    background-color: #ff8000;
     border-radius: 100px;
     padding: 0px 25px;
     font-size: 14px;
     cursor: pointer;
-    border: 1px solid #1e5f84;
+    border: 1px solid #ff8000;
 }
 
 .header-container-rigth button:hover{
-    color: #1e5f84;
+    color: #ff8000;
     background-color: #FFFFFF;
 }
 
@@ -101,23 +101,34 @@
 }
 
 .link-header-responsive:hover{
-    color: #B7A088;
+    color: #ff8000;
+}
+
+.link-header-responsive-2{
+    text-decoration: none;
+    font-size: 14px;
+    color: #ff8000;
+    cursor: pointer;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    height: 40px;
+    font-weight: bold;
 }
 
 .container-link-responsive button{
     height: 40px;
     width: 117px;
     color: #FFFFFF;
-    background-color: #1E3684;
+    background-color: #ff8000;
     border-radius: 100px;
     padding: 0px 25px;
     font-size: 15px;
     cursor: pointer;
-    border: 1px solid #1E3684;
+    border: 1px solid #ff8000;
 }
 
 .container-link-responsive button:hover{
-    color: #2D2E33;
+    color: #ff8000;
     background-color: #FFFFFF;
 }
 

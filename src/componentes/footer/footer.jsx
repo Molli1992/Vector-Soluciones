@@ -13,21 +13,11 @@ function Footer() {
   return (
     <div className="body-footer">
       <div className="container-1-footer">
-        <Link to={"quienes-somos"} className="link-footer" onClick={onClick}>
-          Quienes Somos
-        </Link>
+        <Link className="link-footer">Vector Soluciones</Link>
         <div className="line-footer"></div>
-        <Link to={"pago-proveedores"} className="link-footer" onClick={onClick}>
-          Pago Proveedores
-        </Link>
+        <Link className="link-footer">Pago Proveedores</Link>
         <div className="line-footer"></div>
-        <Link
-          to={"cobranzas-regulares"}
-          className="link-footer"
-          onClick={onClick}
-        >
-          Cobranzas Regulares
-        </Link>
+        <Link className="link-footer">Cobranzas Regulares</Link>
       </div>
       <div className="container-2-footer">
         <text>

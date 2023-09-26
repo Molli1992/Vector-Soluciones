@@ -14,8 +14,6 @@ function Header() {
   const navigate = useNavigate();
   const location = useLocation();
 
-  console.log(location.pathname);
-
   const onClick = () => {
     if (state === false) {
       setState(true);
@@ -26,6 +24,10 @@ function Header() {
 
   const onClickRoute = () => {
     setState(false);
+    setCobranzas(false);
+    setNostros(false);
+    setInicio(false);
+    setProveedores(false);
     navigate("/contacto");
   };
 
@@ -181,30 +183,79 @@ function Header() {
       {state === true ? (
         <div className="header-container-responsive">
           <div className="container-link-responsive">
-            <Link to={"/"} className="link-header-responsive" onClick={onClick}>
-              Inicio
-            </Link>
-            <Link
-              to={"quienes-somos"}
-              className="link-header-responsive"
-              onClick={onClick}
-            >
-              Quienes Somos
-            </Link>
-            <Link
-              to={"pago-proveedores"}
-              className="link-header-responsive"
-              onClick={onClick}
-            >
-              Pago Proveedores
-            </Link>
-            <Link
-              to={"cobranzas-regulares"}
-              className="link-header-responsive"
-              onClick={onClick}
-            >
-              Cobranzas Regulares
-            </Link>
+            {inicio === false ? (
+              <Link
+                to={"/"}
+                className="link-header-responsive"
+                onClick={() => {
+                  onClick();
+                  onClickStateInicio();
+                }}
+              >
+                Inicio
+              </Link>
+            ) : (
+              <Link to={"/"} className="link-header-responsive-2">
+                Inicio
+              </Link>
+            )}
+
+            {nosotros === false ? (
+              <Link
+                to={"quienes-somos"}
+                className="link-header-responsive"
+                onClick={() => {
+                  onClick();
+                  onClickStateNostros();
+                }}
+              >
+                Quienes Somos
+              </Link>
+            ) : (
+              <Link to={"quienes-somos"} className="link-header-responsive-2">
+                Quienes Somos
+              </Link>
+            )}
+
+            {proveedores === false ? (
+              <Link
+                to={"pago-proveedores"}
+                className="link-header-responsive"
+                onClick={() => {
+                  onClick();
+                  onClickStateProveedores();
+                }}
+              >
+                Pago Proveedores
+              </Link>
+            ) : (
+              <Link
+                to={"pago-proveedores"}
+                className="link-header-responsive-2"
+              >
+                Pago Proveedores
+              </Link>
+            )}
+
+            {cobranzas === false ? (
+              <Link
+                to={"cobranzas-regulares"}
+                className="link-header-responsive"
+                onClick={() => {
+                  onClick();
+                  onClickStateCobranzas();
+                }}
+              >
+                Cobranzas Regulares
+              </Link>
+            ) : (
+              <Link
+                to={"cobranzas-regulares"}
+                className="link-header-responsive-2"
+              >
+                Cobranzas Regulares
+              </Link>
+            )}
             <button onClick={onClickRoute}>Contacto</button>
           </div>
         </div>

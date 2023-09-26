@@ -77,7 +77,7 @@ function Nosotros() {
             xmlns="http://www.w3.org/2000/svg"
             width="50"
             height="50"
-            fill="#1e5f84"
+            fill="#ff8000"
             class="bi bi-people"
             viewBox="0 0 16 16"
           >
@@ -92,7 +92,7 @@ function Nosotros() {
             xmlns="http://www.w3.org/2000/svg"
             width="50"
             height="50"
-            fill="#1e5f84"
+            fill="#ff8000"
             class="bi bi-emoji-smile"
             viewBox="0 0 16 16"
           >
@@ -108,7 +108,7 @@ function Nosotros() {
             xmlns="http://www.w3.org/2000/svg"
             width="50"
             height="50"
-            fill="#1e5f84"
+            fill="#ff8000"
             class="bi bi-globe2"
             viewBox="0 0 16 16"
           >
@@ -125,7 +125,7 @@ function Nosotros() {
             xmlns="http://www.w3.org/2000/svg"
             width="50"
             height="50"
-            fill="#1e5f84"
+            fill="#ff8000"
             class="bi bi-check2"
             viewBox="0 0 16 16"
           >
