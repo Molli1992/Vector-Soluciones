@@ -18,7 +18,64 @@ function Header() {
 
   const onClickRoute = () => {
     navigate("/contacto");
+    let inicio = document.getElementById("inicio");
+    let nosotros = document.getElementById("nosotros");
+    let proveedores = document.getElementById("proveedores");
+    let cobranzas = document.getElementById("cobranzas");
+
+    inicio.classList.remove("active");
+    nosotros.classList.remove("active");
+    proveedores.classList.remove("active");
+    cobranzas.classList.remove("active");
     setState(false);
+  };
+
+  const activeInicio = () => {
+    let inicio = document.getElementById("inicio");
+    let nosotros = document.getElementById("nosotros");
+    let proveedores = document.getElementById("proveedores");
+    let cobranzas = document.getElementById("cobranzas");
+
+    inicio.classList.add("active");
+    nosotros.classList.remove("active");
+    proveedores.classList.remove("active");
+    cobranzas.classList.remove("active");
+  };
+
+  const activeNosotros = () => {
+    let inicio = document.getElementById("inicio");
+    let nosotros = document.getElementById("nosotros");
+    let proveedores = document.getElementById("proveedores");
+    let cobranzas = document.getElementById("cobranzas");
+
+    inicio.classList.remove("active");
+    nosotros.classList.add("active");
+    proveedores.classList.remove("active");
+    cobranzas.classList.remove("active");
+  };
+
+  const activeProveedores = () => {
+    let inicio = document.getElementById("inicio");
+    let nosotros = document.getElementById("nosotros");
+    let proveedores = document.getElementById("proveedores");
+    let cobranzas = document.getElementById("cobranzas");
+
+    inicio.classList.remove("active");
+    nosotros.classList.remove("active");
+    proveedores.classList.add("active");
+    cobranzas.classList.remove("active");
+  };
+
+  const activeCobranzas = () => {
+    let inicio = document.getElementById("inicio");
+    let nosotros = document.getElementById("nosotros");
+    let proveedores = document.getElementById("proveedores");
+    let cobranzas = document.getElementById("cobranzas");
+
+    inicio.classList.remove("active");
+    nosotros.classList.remove("active");
+    proveedores.classList.remove("active");
+    cobranzas.classList.add("active");
   };
 
   return (
@@ -28,19 +85,39 @@ function Header() {
       </div>
 
       <div className="header-container-rigth">
-        <Link to={"/"} className="link-header">
+        <Link
+          id="inicio"
+          to={"/"}
+          className="link-header active"
+          onClick={activeInicio}
+        >
           Inicio
         </Link>
 
-        <Link to={"quienes-somos"} className="link-header">
+        <Link
+          id="nosotros"
+          to={"quienes-somos"}
+          className="link-header"
+          onClick={activeNosotros}
+        >
           Quienes Somos
         </Link>
 
-        <Link to={"pago-proveedores"} className="link-header">
+        <Link
+          id="proveedores"
+          to={"pago-proveedores"}
+          className="link-header"
+          onClick={activeProveedores}
+        >
           Pago Proveedores
         </Link>
 
-        <Link to={"cobranzas-regulares"} className="link-header">
+        <Link
+          id="cobranzas"
+          to={"cobranzas-regulares"}
+          className="link-header"
+          onClick={activeCobranzas}
+        >
           Cobranzas Regulares
         </Link>
 
@@ -80,6 +157,7 @@ function Header() {
         <div className="header-container-responsive">
           <div className="container-link-responsive">
             <Link
+              id="inicio-2"
               to={"/"}
               className="link-header-responsive"
               onClick={() => {
@@ -90,6 +168,7 @@ function Header() {
             </Link>
 
             <Link
+              id="nosotros-2"
               to={"quienes-somos"}
               className="link-header-responsive"
               onClick={() => {
@@ -100,6 +179,7 @@ function Header() {
             </Link>
 
             <Link
+              id="proveedores-2"
               to={"pago-proveedores"}
               className="link-header-responsive"
               onClick={() => {
@@ -110,6 +190,7 @@ function Header() {
             </Link>
 
             <Link
+              id="cobranzas-2"
               to={"cobranzas-regulares"}
               className="link-header-responsive"
               onClick={() => {

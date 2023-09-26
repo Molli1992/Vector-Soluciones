@@ -112,6 +112,11 @@
     background-color: #FFFFFF;
 }
 
+.active{
+    color: #ff8000;
+    font-weight: bold;
+}
+
 
 @media (max-width: 980px) {
 

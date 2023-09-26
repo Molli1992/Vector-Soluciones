@@ -6,6 +6,15 @@ function Nosotros() {
   const navigate = useNavigate();
 
   const onClickRoutePagoProveedores = () => {
+    let inicio = document.getElementById("inicio");
+    let nosotros = document.getElementById("nosotros");
+    let proveedores = document.getElementById("proveedores");
+    let cobranzas = document.getElementById("cobranzas");
+
+    inicio.classList.remove("active");
+    nosotros.classList.remove("active");
+    proveedores.classList.add("active");
+    cobranzas.classList.remove("active");
     navigate("/pago-proveedores");
     window.scrollTo({
       top: 0,
@@ -14,6 +23,16 @@ function Nosotros() {
   };
 
   const onClickRouteCotacto = () => {
+    let inicio = document.getElementById("inicio");
+    let nosotros = document.getElementById("nosotros");
+    let proveedores = document.getElementById("proveedores");
+    let cobranzas = document.getElementById("cobranzas");
+
+    inicio.classList.remove("active");
+    nosotros.classList.remove("active");
+    proveedores.classList.remove("active");
+    cobranzas.classList.remove("active");
+
     navigate("/contacto");
     window.scrollTo({
       top: 0,
@@ -22,6 +41,15 @@ function Nosotros() {
   };
 
   const onClickRouteServices = () => {
+    let inicio = document.getElementById("inicio");
+    let nosotros = document.getElementById("nosotros");
+    let proveedores = document.getElementById("proveedores");
+    let cobranzas = document.getElementById("cobranzas");
+
+    inicio.classList.remove("active");
+    nosotros.classList.remove("active");
+    proveedores.classList.remove("active");
+    cobranzas.classList.remove("active");
     navigate("/financial-services");
     window.scrollTo({
       top: 0,

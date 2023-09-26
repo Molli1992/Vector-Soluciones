@@ -10,17 +10,69 @@ function Footer() {
     });
   };
 
+  const onClickNosotros = () => {
+    let inicio = document.getElementById("inicio");
+    let nosotros = document.getElementById("nosotros");
+    let proveedores = document.getElementById("proveedores");
+    let cobranzas = document.getElementById("cobranzas");
+
+    inicio.classList.remove("active");
+    nosotros.classList.add("active");
+    proveedores.classList.remove("active");
+    cobranzas.classList.remove("active");
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  const onClickProveedores = () => {
+    let inicio = document.getElementById("inicio");
+    let nosotros = document.getElementById("nosotros");
+    let proveedores = document.getElementById("proveedores");
+    let cobranzas = document.getElementById("cobranzas");
+
+    inicio.classList.remove("active");
+    nosotros.classList.remove("active");
+    proveedores.classList.add("active");
+    cobranzas.classList.remove("active");
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  const onClickCobranzas = () => {
+    let inicio = document.getElementById("inicio");
+    let nosotros = document.getElementById("nosotros");
+    let proveedores = document.getElementById("proveedores");
+    let cobranzas = document.getElementById("cobranzas");
+
+    inicio.classList.remove("active");
+    nosotros.classList.remove("active");
+    proveedores.classList.remove("active");
+    cobranzas.classList.add("active");
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="body-footer">
       <div className="container-1-footer">
-        <Link to={"/quienes-somos"} className="link-footer" onClick={onClick}>
+        <Link
+          to={"/quienes-somos"}
+          className="link-footer"
+          onClick={onClickNosotros}
+        >
           Quienes Somos
         </Link>
         <div className="line-footer"></div>
         <Link
           to={"/pago-proveedores"}
           className="link-footer"
-          onClick={onClick}
+          onClick={onClickProveedores}
         >
           Pago Proveedores
         </Link>
@@ -28,7 +80,7 @@ function Footer() {
         <Link
           to={"/cobranzas-regulares"}
           className="link-footer"
-          onClick={onClick}
+          onClick={onClickCobranzas}
         >
           Cobranzas Regulares
         </Link>
