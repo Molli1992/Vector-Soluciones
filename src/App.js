@@ -10,6 +10,8 @@ import Footer from "./componentes/footer/footer";
 import Nosotros from "./componentes/nosotros/nosotros";
 import Proveedores from "./componentes/proveedores/proveedores";
 import Cobranzas from "./componentes/cobranzas/cobranzas";
+import Contacto from "./componentes/contacto/contacto";
+import Servicios from "./componentes/servicios/servicios";
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
           <Route path="/quienes-somos" element={<Nosotros />} />
           <Route path="/pago-proveedores" element={<Proveedores />} />
           <Route path="/cobranzas-regulares" element={<Cobranzas />} />
+          <Route path="/contacto" element={<Contacto />} />
+          <Route path="/financial-services" element={<Servicios />} />
 
         </Routes>
 
