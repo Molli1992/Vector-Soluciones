@@ -1,8 +1,33 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "./nosotros.css";
 
 function Nosotros() {
+  const navigate = useNavigate();
+
+  const onClickRoutePagoProveedores = () => {
+    navigate("/pago-proveedores");
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  const onClickRouteCotacto = () => {
+    navigate("/contacto");
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  const onClickRouteServices = () => {
+    navigate("/financial-services");
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <div className="body-nosotros">
       <div className="container-nosotros-1 imgBackground-nosotros">
@@ -47,7 +72,7 @@ function Nosotros() {
       </div>
 
       <div className="conatiner-nosotros-3">
-        <Link to={"/pago-proveedores"} className="card-nosotros">
+        <div onClick={onClickRoutePagoProveedores} className="card-nosotros">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="50"
@@ -60,9 +85,9 @@ function Nosotros() {
           </svg>
           <h1>Gestion</h1>
           <text>Optimiza tus cobranzas con un servicios especializado</text>
-        </Link>
+        </div>
 
-        <Link to={"/contacto"} className="card-nosotros">
+        <div onClick={onClickRouteCotacto} className="card-nosotros">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="50"
@@ -76,9 +101,9 @@ function Nosotros() {
           </svg>
           <h1>Confianza</h1>
           <text>Confia en nosotros para la gestion de cobranzas efectiva</text>
-        </Link>
+        </div>
 
-        <Link to={"/financial-services"} className="card-nosotros">
+        <div onClick={onClickRouteServices} className="card-nosotros">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="50"
@@ -93,9 +118,9 @@ function Nosotros() {
           <text>
             Soluciones innovadoras para una gestion de cobranza eficiente
           </text>
-        </Link>
+        </div>
 
-        <Link to={"/financial-services"} className="card-nosotros">
+        <div onClick={onClickRouteServices} className="card-nosotros">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="50"
@@ -108,15 +133,10 @@ function Nosotros() {
           </svg>
           <h1>Resultados</h1>
           <text>Resultados exitosos y garantizados para tus cobranzas</text>
-        </Link>
+        </div>
       </div>
     </div>
   );
 }
 
 export default Nosotros;
-
-/*
-
-
-*/
