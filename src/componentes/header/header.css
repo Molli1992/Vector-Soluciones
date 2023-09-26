@@ -15,6 +15,8 @@
 
 .header-container-left img{
     margin-left: 35px;
+    width: 250px;
+    height: 100%;
 }
 
 .header-container-rigth{
@@ -115,8 +117,6 @@
 
     .header-container-left img{
         margin-left: 20px;
-        width: 150px;
-        height: 50px;
     }
     
 

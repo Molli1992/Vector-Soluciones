@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import Logo from "../../logo/logo-vector-2-removebg-preview.png";
 import "./header.css";
 
 function Header() {
@@ -21,10 +22,7 @@ function Header() {
   return (
     <div className="body-header">
       <div className="header-container-left">
-        <img
-          src="https://unionadtech.com/wp-content/themes/yootheme/cache/de/logo-de28899c.png"
-          alt="Logo"
-        />
+        <img src={Logo} alt="Logo" />
       </div>
 
       <div className="header-container-rigth">
