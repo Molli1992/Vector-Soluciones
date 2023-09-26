@@ -13,11 +13,25 @@ function Footer() {
   return (
     <div className="body-footer">
       <div className="container-1-footer">
-        <Link className="link-footer">Vector Soluciones</Link>
+        <Link to={"/quienes-somos"} className="link-footer" onClick={onClick}>
+          Quienes Somos
+        </Link>
         <div className="line-footer"></div>
-        <Link className="link-footer">Pago Proveedores</Link>
+        <Link
+          to={"/pago-proveedores"}
+          className="link-footer"
+          onClick={onClick}
+        >
+          Pago Proveedores
+        </Link>
         <div className="line-footer"></div>
-        <Link className="link-footer">Cobranzas Regulares</Link>
+        <Link
+          to={"/cobranzas-regulares"}
+          className="link-footer"
+          onClick={onClick}
+        >
+          Cobranzas Regulares
+        </Link>
       </div>
       <div className="container-2-footer">
         <text>© 2023 Vector Soluciones Todos los derechos reservados.</text>

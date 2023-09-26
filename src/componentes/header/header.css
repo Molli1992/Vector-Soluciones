@@ -38,15 +38,6 @@
     color: #ff8000;
 }
 
-.link-header-2{
-    text-decoration: none;
-    font-size: 15px;
-    color: #ff8000;
-    cursor: pointer;
-    margin-right: 45px;
-    font-weight: bold;
-}
-
 .header-container-rigth button{
     height: 40px;
     width: 117px;
@@ -102,17 +93,6 @@
 
 .link-header-responsive:hover{
     color: #ff8000;
-}
-
-.link-header-responsive-2{
-    text-decoration: none;
-    font-size: 14px;
-    color: #ff8000;
-    cursor: pointer;
-    width: 100%;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    height: 40px;
-    font-weight: bold;
 }
 
 .container-link-responsive button{

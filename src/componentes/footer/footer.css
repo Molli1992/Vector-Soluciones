@@ -18,7 +18,11 @@
     text-decoration: none;
     color: #FFFFFFB3;
     font-size: 15px;
-    cursor: default;
+    cursor: pointer;
+}
+
+.link-footer:hover{
+    color: #FFFFFF;
 }
 
 .line-footer{
