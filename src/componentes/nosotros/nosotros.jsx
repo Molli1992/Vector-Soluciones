@@ -62,7 +62,7 @@ function Nosotros() {
           <text>Optimiza tus cobranzas con un servicios especializado</text>
         </Link>
 
-        <Link to={"/legal-advisory"} className="card-nosotros">
+        <Link to={"/contacto"} className="card-nosotros">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="50"
