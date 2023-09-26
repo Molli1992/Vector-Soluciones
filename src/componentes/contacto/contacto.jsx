@@ -9,7 +9,7 @@ function Contacto() {
           Contáctanos para más información sobre nuestros servicios para tu
           empresa
         </h1>
-        <h3>vectors@gmail.com</h3>
+        <h3>info@vectorsoluciones.com</h3>
       </div>
 
       <div className="container-contacto-2">
