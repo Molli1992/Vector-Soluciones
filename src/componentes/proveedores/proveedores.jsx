@@ -19,30 +19,31 @@ function Proveedores() {
 
         <div className="container-nosotros-2-div-2">
           <text>
-            Nuestro servicio de pago a proveedores se enfoca en ofrecer
-            soluciones adaptadas a las necesidades de cada uno de nuestros
-            clientes. Ya sea que necesiten una gestión completa del proceso de
-            pago o solo una parte específica del mismo, nos aseguramos de
-            brindar un servicio personalizado que cumpla con sus requerimientos.
+            Nuestro enfoque en el servicio de pago a proveedores se centra en
+            proporcionar soluciones adaptadas a medida para cada cliente. Sea
+            que necesiten gestionar completamente el proceso de pago o solo una
+            parte específica del mismo, nos aseguramos de ofrecer un servicio
+            personalizado que se ajuste a sus necesidades.
           </text>
           <text>
-            Nos encargamos de la coordinación y seguimiento de todos los pagos a
-            proveedores, garantizando que se realicen en tiempo y forma. Además,
-            nos aseguramos de que todos los procesos sean transparentes y
-            confiables, para generar una relación de confianza con nuestros
-            clientes y sus proveedores
+            Nos encargamos de coordinar y dar seguimiento a todos los pagos a
+            proveedores, asegurándonos de que se realicen puntualmente y según
+            lo acordado. Además, nos esforzamos por garantizar que todos los
+            procedimientos sean transparentes y confiables, cultivando así una
+            relación de confianza tanto con nuestros clientes como con sus
+            proveedores.
           </text>
           <text>
-            Nuestro equipo de profesionales altamente capacitados y con
-            experiencia en el mercado de pagos a proveedores, junto con nuestra
-            tecnología de última generación, nos permiten ofrecer un servicio de
-            calidad y eficiente.
+            Nuestro equipo está formado por profesionales altamente capacitados
+            y con experiencia en el mercado de pagos a proveedores. En
+            combinación con nuestra tecnología de vanguardia, podemos ofrecer un
+            servicio eficiente y de alta calidad.
           </text>
           <text>
-            Estamos comprometidos con la mejora continua y la innovación en
-            nuestros servicios, para seguir brindando soluciones efectivas y
-            adaptadas a las necesidades específicas de cada cliente en el área
-            de pago a proveedores.
+            Estamos firmemente comprometidos con la mejora constante y la
+            innovación en nuestros servicios, con el objetivo de seguir
+            proporcionando soluciones efectivas y adaptadas a las necesidades
+            específicas de cada cliente en el ámbito de los pagos a proveedores
           </text>
         </div>
       </div>

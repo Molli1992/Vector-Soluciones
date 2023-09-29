@@ -72,29 +72,25 @@ function Nosotros() {
 
         <div className="container-nosotros-2-div-2">
           <text>
-            Nuestra empresa nació con el objetivo de ayudar a las empresas a
-            optimizar su gestión de cobranzas. Desde nuestros inicios, nos
-            enfocamos en brindar soluciones efectivas y personalizadas para cada
-            uno de nuestros clientes.
+            Nuestra empresa fue establecida con la misión de ayudar a las
+            empresas a mejorar su eficiencia en la gestión de cobros.
           </text>
           <text>
-            Contamos con un equipo de profesionales altamente capacitados y una
-            tecnología de vanguardia para ofrecer un servicio de primer nivel.
-          </text>
-          <text>
-            Nos enfocamos en la transparencia y la honestidad en todas nuestras
+            Desde nuestros inicios, nos hemos centrado en proporcionar
+            soluciones personalizadas y efectivas para cada cliente. Contamos
+            con un equipo de profesionales altamente capacitados y utilizamos
+            tecnología de vanguardia para ofrecer un servicio de alta calidad.
+            Valoramos la transparencia y la honestidad en todas nuestras
             operaciones, y creemos que una comunicación cercana y efectiva es
             fundamental para el éxito de nuestros clientes.
           </text>
           <text>
             Estamos comprometidos con el crecimiento constante y la mejora
-            continua para seguir innovando en la gestión de cobranzas y así
-            ayudar a nuestros clientes a alcanzar sus objetivos financieros.
-          </text>
-          <text>
-            Confiamos en que, con nuestra dedicación y experiencia, podemos
-            convertirnos en una solución confiable y efectiva para la gestión de
-            cobranzas.
+            continua para innovar en la gestión de cobros y así ayudar a
+            nuestros clientes a alcanzar sus metas financieras. Con nuestra
+            dedicación y experiencia, confiamos en que podemos convertirnos en
+            una solución confiable y efectiva para las necesidades de gestión de
+            cobros de nuestros clientes.
           </text>
         </div>
       </div>

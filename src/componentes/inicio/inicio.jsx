@@ -64,9 +64,9 @@ function Inicio() {
             <h3>Solución en cobranza</h3>
             <div>
               <text>
-                Simplifica y optimiza tus procesos financieros con nuestra
-                solución de gestión de cobros y pagos. Ahorra tiempo y reduce el
-                estrés de la gestión financiera
+                Estamos comprometidos con el crecimiento constante y la mejora
+                continua para innovar en la gestión de cobros y así ayudar a
+                nuestros clientes a alcanzar sus metas financieras.
               </text>
             </div>
             <button onClick={onClickRouteNosotros} className="button-inicio">
@@ -88,11 +88,11 @@ function Inicio() {
         </div>
         <div className="container-inicio-2-div-2">
           <text>
-            Ofrecemos soluciones de gestión de pago a proveedores adaptadas a
-            las necesidades específicas de tu negocio. Ya sea que necesites una
-            gestión completa o personalizada, nuestro equipo te brindará el
-            soporte necesario. ¡Contáctanos hoy y descubre cómo podemos
-            ayudarte!
+            Nuestro enfoque en el servicio de pago a proveedores se centra en
+            proporcionar soluciones adaptadas a medida para cada cliente. Sea
+            que necesiten gestionar completamente el proceso de pago o solo una
+            parte específica del mismo, nos aseguramos de ofrecer un servicio
+            personalizado que se ajuste a sus necesidades.
           </text>
         </div>
       </div>
@@ -100,11 +100,11 @@ function Inicio() {
       <div className="container-inicio-2 displayNone">
         <div className="container-inicio-2-div-2">
           <text>
-            Ofrecemos soluciones de gestión de cobranzas adaptadas a las
-            necesidades específicas de tu negocio. Realizamos la gestión
-            completa del proceso o personalizamos nuestro servicio para
-            satisfacer tus necesidades. ¡Contáctanos hoy para mejorar tu gestión
-            de cobranzas!
+            Nuestra atención en la gestión rutinaria de cobros se enfoca en
+            proporcionar soluciones integrales que abarquen todo el proceso de
+            cobranzas. Nos adaptamos cuidadosamente a las necesidades
+            individuales de nuestros clientes para asegurar un servicio eficaz y
+            de alta calidad.
           </text>
         </div>
 
@@ -131,11 +131,11 @@ function Inicio() {
         </div>
         <div className="container-inicio-2-div-2">
           <text>
-            Ofrecemos soluciones de gestión de cobranzas adaptadas a las
-            necesidades específicas de tu negocio. Realizamos la gestión
-            completa del proceso o personalizamos nuestro servicio para
-            satisfacer tus necesidades. ¡Contáctanos hoy para mejorar tu gestión
-            de cobranzas!
+            Nuestra atención en la gestión rutinaria de cobros se enfoca en
+            proporcionar soluciones integrales que abarquen todo el proceso de
+            cobranzas. Nos adaptamos cuidadosamente a las necesidades
+            individuales de nuestros clientes para asegurar un servicio eficaz y
+            de alta calidad.
           </text>
         </div>
       </div>

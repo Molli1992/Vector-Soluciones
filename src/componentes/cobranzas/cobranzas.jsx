@@ -19,27 +19,25 @@ function Cobranzas() {
 
         <div className="container-nosotros-2-div-2">
           <text>
-            Nuestro servicio de cobranzas regulares se enfoca en brindar
-            soluciones integrales para la gestión completa del proceso de
-            cobranzas.
+            Nuestra atención en la gestión rutinaria de cobros se enfoca en
+            proporcionar soluciones integrales que abarquen todo el proceso de
+            cobranzas. Nos adaptamos cuidadosamente a las necesidades
+            individuales de nuestros clientes para asegurar un servicio eficaz y
+            de alta calidad.
           </text>
           <text>
-            Nos adaptamos a las necesidades específicas de nuestros clientes
-            para garantizar un servicio eficiente y efectivo.
+            Contamos con herramientas innovadoras y un equipo de expertos
+            especializados en el campo para optimizar nuestras estrategias de
+            cobranza y obtener resultados óptimos. Además, proporcionamos
+            informes detallados para mantener a nuestros clientes completamente
+            informados sobre el progreso de cada gestión.
           </text>
           <text>
-            Utilizamos herramientas innovadoras y un equipo de profesionales
-            especializados en el área para maximizar los resultados de nuestras
-            gestiones de cobranza. Además, ofrecemos informes detallados para
-            mantener a nuestros clientes informados sobre el progreso de cada
-            gestión.
-          </text>
-          <text>
-            En resumen, nuestro servicio de cobranzas regulares es una solución
-            confiable para la recuperación de deudas y el mantenimiento de
-            flujos de caja saludables en su empresa. Permita que nos hagamos
-            cargo de esta tarea administrativa y dedique su tiempo y recursos a
-            su negocio principal.
+            En resumen, nuestro servicio de gestión de cobros periódicos
+            representa una opción confiable para la recuperación de deudas y
+            para mantener flujos de efectivo saludables en su empresa.
+            Permítanos encargarnos de esta tarea administrativa para que pueda
+            dedicar su tiempo y recursos a su actividad principal.
           </text>
         </div>
       </div>
