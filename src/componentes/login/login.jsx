@@ -71,9 +71,9 @@ function Login() {
                       <form>
                         <h5
                           class="fw-normal mb-3 pb-3"
-                          style={{ fontSize: "36px" }}
+                          style={{ fontSize: "38px" }}
                         >
-                          Sign into your account
+                          Iniciar sesion
                         </h5>
 
                         <div class="form-outline mb-4">
@@ -86,7 +86,7 @@ function Login() {
                             value={login.user}
                           />
                           <label class="form-label" for="form2Example17">
-                            Email address
+                            Email
                           </label>
                         </div>
 
@@ -100,7 +100,7 @@ function Login() {
                             value={login.password}
                           />
                           <label class="form-label" for="form2Example27">
-                            Password
+                            Contraseña
                           </label>
                         </div>
 
@@ -114,16 +114,19 @@ function Login() {
                           </button>
                         </div>
 
-                        <a class="small text-muted" href="/">
-                          Forgot password?
-                        </a>
                         <p class="mb-5 pb-lg-2">
-                          Don't have an account? <a href="/">Register here</a>
+                          No tenes una cuenta? <a href="/">Registrate</a>
                         </p>
 
-                        <a href="/" class="small text-muted">
-                          Privacy policy
+                        <a class="small text-muted" href="/">
+                          Olvidaste tu contraseña?
                         </a>
+
+                        <div>
+                          <a href="/" class="small text-muted">
+                            Politica de Privacidad
+                          </a>
+                        </div>
                       </form>
                     </div>
                   </div>
