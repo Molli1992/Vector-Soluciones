@@ -91,7 +91,7 @@ function Header() {
         <div className="header-container-rigth">
           <Link
             id="inicio"
-            to={"/"}
+            to={"/inicio"}
             className="link-header active"
             onClick={activeInicio}
           >
