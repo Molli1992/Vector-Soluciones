@@ -11,37 +11,28 @@ import Proveedores from "./componentes/proveedores/proveedores";
 import Cobranzas from "./componentes/cobranzas/cobranzas";
 import Contacto from "./componentes/contacto/contacto";
 import Servicios from "./componentes/servicios/servicios";
+import Login from "./componentes/login/login";
 
 function App() {
   return (
-
-
-
-     <BrowserRouter>
-
+    <BrowserRouter>
       <div className="body-app">
-
-       <Header />
+        <Header />
 
         <Routes>
-
-          <Route path="/" element={<Inicio />} />
+          <Route path="/" element={<Login />} />
+          <Route path="/inicio" element={<Inicio />} />
           <Route path="/quienes-somos" element={<Nosotros />} />
           <Route path="/pago-proveedores" element={<Proveedores />} />
           <Route path="/cobranzas-regulares" element={<Cobranzas />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/financial-services" element={<Servicios />} />
-
         </Routes>
 
         <Footer />
-
       </div>
-
-     </BrowserRouter>
-
+    </BrowserRouter>
   );
-
-};
+}
 
 export default App;
