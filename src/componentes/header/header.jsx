@@ -79,7 +79,7 @@ function Header() {
     cobranzas.classList.add("active");
   };
 
-  if (location.pathname === "/link") {
+  if (location.pathname === "/") {
     return null;
   } else {
     return (

@@ -59,7 +59,7 @@ function Footer() {
     });
   };
 
-  if (location.pathname === "/link") {
+  if (location.pathname === "/") {
     return null;
   } else {
     return (
