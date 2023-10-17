@@ -118,12 +118,20 @@ function Login() {
                           No tenes una cuenta? <a href="/">Registrate</a>
                         </p>
 
-                        <a class="small text-muted" href="/">
+                        <a
+                          class="small text-muted"
+                          href="/"
+                          style={{ textDecoration: "none" }}
+                        >
                           Olvidaste tu contraseña?
                         </a>
 
                         <div>
-                          <a href="/" class="small text-muted">
+                          <a
+                            href="/"
+                            class="small text-muted"
+                            style={{ textDecoration: "none" }}
+                          >
                             Politica de Privacidad
                           </a>
                         </div>
