@@ -51,6 +51,15 @@ function Login() {
     }
   };
 
+  const onClick = () => {
+    Swal.fire({
+      title: "Error!",
+      text: "En reparacion",
+      icon: "error",
+      confirmButtonText: "Ok",
+    });
+  };
+
   return (
     <div className="body-login">
       <section class="vh-100">
@@ -115,25 +124,40 @@ function Login() {
                         </div>
 
                         <p class="mb-5 pb-lg-2">
-                          No tenes una cuenta? <a href="/">Registrate</a>
+                          No tenes una cuenta?{" "}
+                          <p
+                            href="/"
+                            onClick={onClick}
+                            style={{
+                              cursor: "pointer",
+                              color: "blue",
+                              borderBottom: "1px solid blue",
+                              width: "85px",
+                            }}
+                          >
+                            Registrate
+                          </p>
                         </p>
 
-                        <a
+                        <p
                           class="small text-muted"
-                          href="/"
-                          style={{ textDecoration: "none" }}
+                          style={{ textDecoration: "none", cursor: "pointer" }}
+                          onClick={onClick}
                         >
                           Olvidaste tu contraseña?
-                        </a>
+                        </p>
 
                         <div>
-                          <a
-                            href="/"
+                          <p
                             class="small text-muted"
-                            style={{ textDecoration: "none" }}
+                            style={{
+                              textDecoration: "none",
+                              cursor: "pointer",
+                            }}
+                            onClick={onClick}
                           >
                             Politica de Privacidad
-                          </a>
+                          </p>
                         </div>
                       </form>
                     </div>
