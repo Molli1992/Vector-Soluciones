@@ -20,8 +20,8 @@ function App() {
         <Header />
 
         <Routes>
-          <Route path="/" element={<Login />} />
-          <Route path="/inicio" element={<Inicio />} />
+          <Route path="/" element={<Inicio />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/quienes-somos" element={<Nosotros />} />
           <Route path="/pago-proveedores" element={<Proveedores />} />
           <Route path="/cobranzas-regulares" element={<Cobranzas />} />

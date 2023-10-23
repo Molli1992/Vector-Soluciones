@@ -36,7 +36,7 @@ function Login() {
         icon: "success",
         confirmButtonText: "Ok",
       }).then(() => {
-        navigate("/inicio");
+        navigate("/");
         window.scrollTo({
           top: 0,
         });
