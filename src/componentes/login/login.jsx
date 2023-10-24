@@ -9,14 +9,6 @@ function Login() {
     user: "",
     password: "",
   });
-  const users = [
-    { user: "jose@hotmail.com", password: "jose123" },
-    { user: "pedro@hotmailgmail.com", password: "pedro123" },
-    { user: "ricardi@yahoo.com", password: "ricardo123" },
-    { user: "tomas@outlook.com", password: "tomas123" },
-    { user: "josefina@gmaill.com", password: "josefina123" },
-  ];
-
   const onChange = (e) => {
     setLogin({
       ...login,
@@ -25,11 +17,7 @@ function Login() {
   };
 
   const onSubmit = () => {
-    const filter = users.filter((i) => {
-      return login.user === i.user && login.password === i.password;
-    });
-
-    if (filter.length !== 0) {
+    if (true) {
       Swal.fire({
         title: "Success!",
         text: "Te has logeado correctamente!",
