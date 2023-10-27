@@ -232,6 +232,17 @@ function Header() {
             >
               Cobranzas Regulares
             </Link>
+
+            <Link
+              id="cobranzas-2"
+              to={"login"}
+              className="link-header-responsive"
+              onClick={() => {
+                onClick();
+              }}
+            >
+              Login
+            </Link>
             <button onClick={onClickRoute}>Contacto</button>
           </div>
         </div>
