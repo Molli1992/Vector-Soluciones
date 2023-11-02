@@ -201,14 +201,16 @@
 
 
     .conatiner-nosotros-3 {
-        display: block;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
     }
 
 
     .card-nosotros {
-        left: 50%;
-        transform: translateX(-50%);
-        width: 250px;
+       width: 100%;
+       margin: 0;
     }
 
 }
