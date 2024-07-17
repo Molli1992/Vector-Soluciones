@@ -4,11 +4,7 @@ import "./servicios.css";
 function Servicios() {
   return (
     <div className="body-servicios">
-      <img
-        src="https://unionadtech.com/wp-admin/admin-ajax.php?action=kernel&p=image&src=file%3Dwp-content%252Fuploads%252Fyootheme%252Ffinancial-services-hero.jpg%26thumbnail%3D1560%2C%2C&hash=d04ba0ae&quot"
-        alt="servicios"
-        className="img-servicios"
-      />
+      <div className="img-servicios" />
 
       <div className="container-texts-servicios">
         <svg

@@ -102,10 +102,14 @@ function Header() {
     login.classList.add("active");
   };
 
+  const onClickLogo = () => {
+    navigate("/");
+  };
+
   return (
     <div className="body-header">
       <div className="header-container-left">
-        <img src={Logo} alt="Logo" />
+        <img src={Logo} alt="Logo" onClick={onClickLogo} />
       </div>
 
       <div className="header-container-rigth">
