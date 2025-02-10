@@ -17,10 +17,10 @@ function Login() {
   };
 
   const onSubmit = () => {
-    if (true) {
+    if (login.user && login.password) {
       Swal.fire({
         title: "Success!",
-        text: "Te has logeado correctamente!",
+        text: "Success logging!",
         icon: "success",
         confirmButtonText: "Ok",
       }).then(() => {
@@ -31,9 +31,9 @@ function Login() {
       });
     } else {
       Swal.fire({
-        title: "Error!",
-        text: "Usuario o contraseña incorrectos",
-        icon: "error",
+        title: "Info!",
+        text: "Complete all fields!",
+        icon: "info",
         confirmButtonText: "Ok",
       });
     }
@@ -41,9 +41,9 @@ function Login() {
 
   const onClick = () => {
     Swal.fire({
-      title: "Error!",
-      text: "En reparacion",
-      icon: "error",
+      title: "Info!",
+      text: "under repair",
+      icon: "info",
       confirmButtonText: "Ok",
     });
   };

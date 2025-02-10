@@ -25,15 +25,15 @@ function Contacto() {
       state.comentarios === ""
     ) {
       Swal.fire({
-        title: "Error!",
-        text: "Completar todos los campos",
-        icon: "error",
+        title: "Info!",
+        text: "Complete all fields!",
+        icon: "info",
         confirmButtonText: "Ok",
       });
     } else {
       Swal.fire({
         title: "Success!",
-        text: "Mensaje enviado correctamente!",
+        text: "Message sent successfully!",
         icon: "success",
         confirmButtonText: "Ok",
       }).then(() => {
