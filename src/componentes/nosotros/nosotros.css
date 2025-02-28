@@ -11,7 +11,7 @@
 }
 
 .imgBackground-nosotros {
-    background-image: url("https://accionpoint.com/wp-content/uploads/quienes-somos1.jpg");
+    background-image: url("../../images//nosotrosImg.jpg");
     background-size: cover;
     background-position: center;
 }
