@@ -76,67 +76,57 @@ function Inicio() {
         </div>
       </div>
 
-      <div className="container-inicio-2">
-        <div className="container-inicio-2-div">
+      <div className="container-flex-inicio">
+        <div
+          className="container-img-inicio"
+          style={{
+            backgroundImage: `linear-gradient(to right bottom, rgba(255, 128, 0, 0.7), rgba(255, 128, 0, 0.7)), url("https://png.pngtree.com/thumb_back/fh260/background/20230515/pngtree-man-in-a-suit-walking-down-a-street-image_2544057.jpg")`,
+          }}
+        >
           <h1>Pago Proveedores</h1>
           <button
             onClick={onClickRoutePagoProveedores}
-            className="button-inicio position-button-inicio"
+            className="button-inicio"
           >
             Mas informacion
           </button>
         </div>
-        <div className="container-inicio-2-div-2">
-          <text>
+
+        <div className="container-text-inicio">
+          <p>
             Nuestro enfoque en el servicio de pago a proveedores se centra en
             proporcionar soluciones adaptadas a medida para cada cliente. Sea
             que necesiten gestionar completamente el proceso de pago o solo una
             parte específica del mismo, nos aseguramos de ofrecer un servicio
             personalizado que se ajuste a sus necesidades.
-          </text>
+          </p>
         </div>
       </div>
 
-      <div className="container-inicio-2 displayNone">
-        <div className="container-inicio-2-div-2">
-          <text>
+      <div className="container-flex-inicio">
+        <div className="container-text-inicio">
+          <p>
             Nuestra atención en la gestión rutinaria de cobros se enfoca en
             proporcionar soluciones integrales que abarquen todo el proceso de
             cobranzas. Nos adaptamos cuidadosamente a las necesidades
             individuales de nuestros clientes para asegurar un servicio eficaz y
             de alta calidad.
-          </text>
+          </p>
         </div>
 
-        <div className="container-inicio-2-div nueva-img">
+        <div
+          className="container-img-inicio"
+          style={{
+            backgroundImage: `linear-gradient(to right bottom, rgba(255, 128, 0, 0.7), rgba(255, 128, 0, 0.7)), url("https://png.pngtree.com/background/20230516/original/pngtree-man-in-a-suit-crossing-a-street-picture-image_2604210.jpg")`,
+          }}
+        >
           <h1>Cobranzas Regulares</h1>
           <button
             onClick={onClickRouteCobranzarRegulares}
-            className="button-inicio position-button-inicio"
+            className="button-inicio"
           >
             Mas informacion
           </button>
-        </div>
-      </div>
-
-      <div className="container-inicio-2 displayBlock">
-        <div className="container-inicio-2-div nueva-img">
-          <h1>Cobranzas Regulares</h1>
-          <button
-            onClick={onClickRouteCobranzarRegulares}
-            className="button-inicio position-button-inicio"
-          >
-            Mas informacion
-          </button>
-        </div>
-        <div className="container-inicio-2-div-2">
-          <text>
-            Nuestra atención en la gestión rutinaria de cobros se enfoca en
-            proporcionar soluciones integrales que abarquen todo el proceso de
-            cobranzas. Nos adaptamos cuidadosamente a las necesidades
-            individuales de nuestros clientes para asegurar un servicio eficaz y
-            de alta calidad.
-          </text>
         </div>
       </div>
     </div>
